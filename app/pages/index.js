@@ -204,6 +204,13 @@ export default () => {
         />
 
         <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
+              // <h1>Object Detection</h1>
+              // <h1>Nhận Diện Đối Tượng</h1>
+              <ul>
+                <li>Object Detection</li>
+                <li>Nhận Dạng Đối Tượng</li>
+              </ul>
+
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Layout
@@ -224,9 +231,6 @@ export default () => {
               </div>
             )}
             <div className="padding">
-              <h1>Object Detection</h1>
-              <h1>Nhận Diện Đối Tượng</h1>
-
               <h2>Upload an image</h2>
               <Dropzone
                 setStatus={setStatus}
@@ -299,8 +303,21 @@ export default () => {
           background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
           background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
         }
+
+        #head ul {
+              list-style: none;
+              float: center;
+              padding-left: 10px;
+              margin-top: 15px;
+        }
+        #head ul li {
+              float: right;
+              margin-left: 10px;
+          
+        }
+
+
         h1 {
           margin-bottom: 1em;
           font-weight: bold;
