@@ -309,11 +309,13 @@ export default () => {
 
         h1 {
           margin-bottom: 1em;
-          font-weight: bold;
-          font-size: 1.3em;
+          font-weight: light;
+          font-size: 1.1em;
           padding-bottom: 0.8em;
           color: #555;
           border-bottom: 1px solid #eee;
+          float: right;
+          margin-left: 10px;
         }
         .ul {
               list-style: none;
