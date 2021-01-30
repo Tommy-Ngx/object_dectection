@@ -303,13 +303,13 @@ export default () => {
 
         }
 
-        #head ul {
+        #Head ul {
               list-style: none;
               float: center;
               padding-left: 10px;
               margin-top: 15px;
         }
-        #head ul li {
+        #Head ul li {
               float: right;
               margin-left: 10px;
           
