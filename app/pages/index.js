@@ -233,7 +233,7 @@ export default () => {
               />
               <h1>
                   <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
-                    <ul>
+                  <ul>
                         <li>Object Detection</li>
                         <li>Nhận Dạng Đối Tượng</li>
                   </ul>
@@ -317,11 +317,11 @@ export default () => {
           margin-left: 10px;
           border-bottom: 1px solid #eee;
         }
-        .img {
+        h1.img {
             float: left;
             box-shadow: none;
         }
-        .ul {
+        h1.ul {
             list-style: none;
             float: border-right;
             padding-left: 10px;
