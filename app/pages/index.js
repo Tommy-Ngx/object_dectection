@@ -315,7 +315,6 @@ export default () => {
           font-size: 1.1em;
           padding-bottom: 0.8em;
           color: #555;
-          border-bottom: 1px solid #eee;
           float: left;
           margin-left: 10px;
         }
@@ -326,12 +325,12 @@ export default () => {
           font-size: 1.1em;
           padding-bottom: 0.8em;
           color: #555;
-          border-bottom: 1px solid #eee;
           float: right;
           margin-left: 10px;
         }
 
         h2 {
+          border-top: 1px solid #eee;
           padding-top: 0.8em;
           margin-bottom: 1em;
           font-weight: bold;
