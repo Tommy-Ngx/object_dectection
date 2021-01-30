@@ -317,6 +317,7 @@ export default () => {
           color: #555;
           float: left;
           margin-left: 10px;
+          border-bottom: 1px solid #eee;
         }
 
         h3 {
