@@ -327,11 +327,11 @@ export default () => {
           color: #555;
           float: right;
           margin-left: 10px;
+          border-bottom: 1px solid #eee;
         }
 
         h2 {
-          border-top: 1px solid #eee;
-          padding-top: 0.8em;
+          padding-top: 3em;
           margin-bottom: 1em;
           font-weight: bold;
           font-size: 1.3em;
