@@ -233,11 +233,15 @@ export default () => {
               />
               <h1 class= 'tom'>
                   <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
+
+              </h1>
+              <h3>
                   <ul>
                         <li>Object Detection</li>
                         <li>Nhận Dạng Đối Tượng</li>
                   </ul>
-              </h1>
+
+              </h3>
 
               <h2>
                 Or choose an example image (
@@ -317,6 +321,14 @@ export default () => {
           margin-left: 10px;
           border-bottom: 1px solid #eee;
         }
+        h3 {
+          float: right;
+          margin-left: 10px;
+
+        }
+
+
+
         .tom
         {
           img {
