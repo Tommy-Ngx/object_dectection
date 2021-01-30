@@ -204,12 +204,10 @@ export default () => {
         />
 
         <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
-              // <h1>Object Detection</h1>
-              // <h1>Nhận Diện Đối Tượng</h1>
-              <ul>
+          <ul>
                 <li>Object Detection</li>
                 <li>Nhận Dạng Đối Tượng</li>
-              </ul>
+          </ul>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
