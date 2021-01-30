@@ -260,13 +260,13 @@ export default () => {
               <h2>How does it work?</h2>
 
               <p className="mb">
-                You can read more on{' '}
+                Please read more in{' '}
                 <a href="https://zeit.co/blog/serverless-machine-learning">
-                  the dedicated article on ZEIT's blog
+                  this blog
                 </a>{' '}
-                or in the code{' '}
+                or available{' '}
                 <a href="https://github.com/Tommy-Ngx/object_dectection">
-                  available on my Github.
+                   on my Github.
                 </a>
               </p>
 
@@ -277,7 +277,7 @@ export default () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  @tommy
+                  @Tommy
                 </a>
                 .
               </p>
