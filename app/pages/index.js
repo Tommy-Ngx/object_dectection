@@ -195,10 +195,10 @@ export default () => {
   return (
     <>
       <Head>
-        <title>Object Detection - An API to detect objects on images</title>
+        <title>Object Detection - Funny Project</title>
         <meta
           name="description"
-          content="An API to detect objects on images using tensorflow-js and Zeit Now"
+          content="Tommy is practicing an API for detect objects on images using tensorflow-js"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -260,19 +260,19 @@ export default () => {
                   the dedicated article on ZEIT's blog
                 </a>{' '}
                 or in the code{' '}
-                <a href="https://github.com/lucleray/object-detection">
-                  available on Github.
+                <a href="https://github.com/Tommy-Ngx/object_dectection">
+                  available on my Github.
                 </a>
               </p>
 
               <p className="mb">
                 Made by{' '}
                 <a
-                  href="https://twitter.com/lucleray"
+                  href="https://github.com/Tommy-Ngx"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  @lucleray
+                  @tommy
                 </a>
                 .
               </p>
