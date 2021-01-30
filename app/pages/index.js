@@ -231,7 +231,7 @@ export default () => {
                 fetchPredict={fetchPredict}
                 setError={setError}
               />
-              <h1>
+              <h1 class= 'tom'>
                   <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
                   <ul>
                         <li>Object Detection</li>
@@ -317,17 +317,21 @@ export default () => {
           margin-left: 10px;
           border-bottom: 1px solid #eee;
         }
-        h1.img {
+        .tom
+        {
+          img {
             float: left;
             box-shadow: none;
         }
-        h1.ul {
+        ul {
             list-style: none;
             float: border-right;
             padding-left: 10px;
             margin-top: 15px;
           }
 
+        }
+        
 
         h2 {
           padding-top: 0em;
