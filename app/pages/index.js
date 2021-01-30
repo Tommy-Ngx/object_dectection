@@ -331,7 +331,7 @@ export default () => {
         }
 
         h2 {
-          padding-top: 3em;
+          padding-top: 4em;
           margin-bottom: 1em;
           font-weight: bold;
           font-size: 1.3em;
