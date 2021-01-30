@@ -203,12 +203,6 @@ export default () => {
           content="Tommy is practicing an API for detect objects on images using tensorflow-js"
         />
 
-        <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
-          <ul>
-                <li>Object Detection</li>
-                <li>Nhận Dạng Đối Tượng</li>
-          </ul>
-
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Layout
@@ -237,6 +231,11 @@ export default () => {
                 fetchPredict={fetchPredict}
                 setError={setError}
               />
+          <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
+          <ul>
+                <li>Object Detection</li>
+                <li>Nhận Dạng Đối Tượng</li>
+          </ul>
 
               <h2>
                 Or choose an example image (
@@ -303,13 +302,13 @@ export default () => {
 
         }
 
-        #Head ul {
+        #Layout ul {
               list-style: none;
               float: center;
               padding-left: 10px;
               margin-top: 15px;
         }
-        #Head ul li {
+        #Layout ul li {
               float: right;
               margin-left: 10px;
           
