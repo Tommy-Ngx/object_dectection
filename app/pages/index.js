@@ -304,17 +304,7 @@ export default () => {
 
         }
 
-        #Layout ul {
-              list-style: none;
-              float: center;
-              padding-left: 10px;
-              margin-top: 15px;
-        }
-        #Layout ul li {
-              float: right;
-              margin-left: 10px;
-          
-        }
+
 
 
         h1 {
@@ -325,8 +315,18 @@ export default () => {
           color: #555;
           border-bottom: 1px solid #eee;
         }
+        .ul {
+              list-style: none;
+              float: center;
+              padding-left: 10px;
+              margin-top: 15px;
+        }
+        .ul li {
+              float: right;
+              margin-left: 10px;
+        }
 
-        
+
         h2 {
           margin-bottom: 1em;
           font-weight: bold;
