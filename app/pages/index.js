@@ -231,11 +231,13 @@ export default () => {
                 fetchPredict={fetchPredict}
                 setError={setError}
               />
-          <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
-          <ul>
-                <li>Object Detection</li>
-                <li>Nhận Dạng Đối Tượng</li>
-          </ul>
+              <h1>
+                  <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
+                  <ul>
+                        <li>Object Detection</li>
+                        <li>Nhận Dạng Đối Tượng</li>
+                  </ul>
+              </h1>
 
               <h2>
                 Or choose an example image (
@@ -323,6 +325,8 @@ export default () => {
           color: #555;
           border-bottom: 1px solid #eee;
         }
+
+        
         h2 {
           margin-bottom: 1em;
           font-weight: bold;
