@@ -231,13 +231,16 @@ export default () => {
                 fetchPredict={fetchPredict}
                 setError={setError}
               />
-              <h1>
+              <h1 class= 'tom'>
                   <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
+
+              </h1>
+              <h3>
                   <ul>
                         <li>Object Detection</li>
                         <li>Nhận Dạng Đối Tượng</li>
                   </ul>
-              </h1>
+              </h3>
 
               <h2>
                 Or choose an example image (
@@ -301,26 +304,42 @@ export default () => {
           background: #aa4b6b;  /* fallback for old browsers */
           background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
           background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         }
+
+
+
+
         h1 {
           margin-bottom: 1em;
           font-weight: light;
           font-size: 1.1em;
           padding-bottom: 0.8em;
           color: #555;
+
           margin-left: 10px;
           border-bottom: 1px solid #eee;
         }
-        h1.img {
+        h3 {
+          float: right;
+          margin-left: 10px;
+        }
+
+
+
+        .tom
+        {
+          img {
             float: left;
             box-shadow: none;
         }
-        h1.ul {
+        ul {
             list-style: none;
             float: border-right;
             padding-left: 10px;
             margin-top: 15px;
-          }
+        }
+        
         h2 {
           padding-top: 0em;
           margin-bottom: 1em;
