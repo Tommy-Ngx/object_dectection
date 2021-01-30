@@ -316,7 +316,7 @@ export default () => {
           padding-bottom: 0.8em;
           color: #555;
           border-bottom: 1px solid #eee;
-          float: right;
+          float: left;
           margin-left: 10px;
         }
 
