@@ -233,11 +233,13 @@ export default () => {
               />
               <h1>
                   <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
+              </h1>
+              <h3>
                   <ul>
                         <li>Object Detection</li>
                         <li>Nhận Dạng Đối Tượng</li>
                   </ul>
-              </h1>
+              </h3>
 
               <h2>
                 Or choose an example image (
@@ -317,17 +319,17 @@ export default () => {
           float: right;
           margin-left: 10px;
         }
-        .ul {
-              list-style: none;
-              float: center;
-              padding-left: 10px;
-              margin-top: 15px;
-        }
-        .ul li {
-              float: right;
-              margin-left: 10px;
-        }
 
+        h3 {
+          margin-bottom: 1em;
+          font-weight: light;
+          font-size: 1.1em;
+          padding-bottom: 0.8em;
+          color: #555;
+          border-bottom: 1px solid #eee;
+          float: right;
+          margin-left: 10px;
+        }
 
         h2 {
           margin-bottom: 1em;
