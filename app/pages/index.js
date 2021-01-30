@@ -338,8 +338,6 @@ export default () => {
             float: border-right;
             padding-left: 10px;
             margin-top: 15px;
-          }
-
         }
         
 
