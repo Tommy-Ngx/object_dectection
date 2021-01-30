@@ -220,7 +220,7 @@ export default () => {
               </div>
             )}
             <div className="padding">
-              <h1>Object-Detection</h1>
+              <h1>Object Detection/Nhận Diện Đối Tượng</h1>
 
               <h2>Upload an image</h2>
               <Dropzone
