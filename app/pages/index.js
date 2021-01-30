@@ -202,6 +202,8 @@ export default () => {
           name="description"
           content="Tommy is practicing an API for detect objects on images using tensorflow-js"
         />
+
+        <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Layout
@@ -222,7 +224,8 @@ export default () => {
               </div>
             )}
             <div className="padding">
-              <h1>Object Detection/Nhận Diện Đối Tượng</h1>
+              <h1>Object Detection</h1>
+              <h1>Nhận Diện Đối Tượng</h1>
 
               <h2>Upload an image</h2>
               <Dropzone
@@ -291,7 +294,12 @@ export default () => {
           padding: 0;
         }
         body {
-          font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+          font-family: 'Raleway', sans-serif;
+          background: #aa4b6b;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
         }
         h1 {
           margin-bottom: 1em;
