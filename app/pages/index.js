@@ -169,7 +169,7 @@ const APIUsage = () => {
           color: rgb(214, 222, 235);
           line-height: 1.45;
           font-size: 1.1em;
-          font-family: Hack, monospace;
+          font-family: 'Raleway', sans-serif;
           background: rgb(1, 22, 39);
           padding: 16px;
           overflow: auto;
