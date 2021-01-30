@@ -195,7 +195,9 @@ export default () => {
   return (
     <>
       <Head>
-        <title>Object Detection - Funny Project</title>
+        <title>Object Detection - Project for learning</title>
+        <link rel="icon" href="https://github.com/Tommy-Ngx/ai/raw/main/img/favicon.ico" type="image/png"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/Tommy-Ngx/ai/raw/main/img/favicon.ico"/>
         <meta
           name="description"
           content="Tommy is practicing an API for detect objects on images using tensorflow-js"
