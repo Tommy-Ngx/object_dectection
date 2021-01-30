@@ -240,7 +240,6 @@ export default () => {
                         <li>Object Detection</li>
                         <li>Nhận Dạng Đối Tượng</li>
                   </ul>
-
               </h3>
 
               <h2>
@@ -324,7 +323,6 @@ export default () => {
         h3 {
           float: right;
           margin-left: 10px;
-
         }
 
 
