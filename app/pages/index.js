@@ -195,16 +195,17 @@ export default () => {
   return (
     <>
       <Head>
-        <title>Object Detection - Project for learning</title>
+        <title>Object Detection - Tommy</title>
         <link rel="icon" href="https://github.com/Tommy-Ngx/ai/raw/main/img/favicon.ico" type="image/png"/>
         <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/Tommy-Ngx/ai/raw/main/img/favicon.ico"/>
         <meta
           name="description"
           content="Tommy is practicing an API for detect objects on images using tensorflow-js"
         />
-
+        <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+
       <Layout
         sidebar={
           <>
