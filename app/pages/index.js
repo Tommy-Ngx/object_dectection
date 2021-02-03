@@ -195,12 +195,17 @@ export default () => {
   return (
     <>
       <Head>
-        <title>Object Detection - An API to detect objects on images</title>
+        <title>Object Detection - Tommy</title>
+        <link rel="icon" href="https://github.com/Tommy-Ngx/ai/raw/main/img/favicon.ico" type="image/png"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/Tommy-Ngx/ai/raw/main/img/favicon.ico"/>
+
         <meta
           name="description"
-          content="An API to detect objects on images using tensorflow-js and Zeit Now"
+          content="Tommy is practicing an API for detect objects on images using tensorflow-js"
         />
+    
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
       </Head>
       <Layout
         sidebar={
@@ -220,7 +225,13 @@ export default () => {
               </div>
             )}
             <div className="padding">
-              <h1>Object-Detection</h1>
+               <h1>
+                  <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
+                  <ul>
+                        <li>Object Detection</li>
+                        <li>Nhận Dạng Đối Tượng</li>
+                  </ul>
+              </h1>
 
               <h2>Upload an image</h2>
               <Dropzone
@@ -255,24 +266,24 @@ export default () => {
               <h2>How does it work?</h2>
 
               <p className="mb">
-                You can read more on{' '}
+                Please read more in{' '}
                 <a href="https://zeit.co/blog/serverless-machine-learning">
-                  the dedicated article on ZEIT's blog
+                  this blog
                 </a>{' '}
-                or in the code{' '}
-                <a href="https://github.com/lucleray/object-detection">
-                  available on Github.
+                or available{' '}
+                <a href="https://github.com/Tommy-Ngx/object_dectection">
+                   on my Github.
                 </a>
               </p>
 
               <p className="mb">
                 Made by{' '}
                 <a
-                  href="https://twitter.com/lucleray"
+                  href="https://github.com/Tommy-Ngx"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  @lucleray
+                  @Tommy
                 </a>
                 .
               </p>
