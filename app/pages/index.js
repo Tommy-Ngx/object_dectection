@@ -169,7 +169,7 @@ const APIUsage = () => {
           color: rgb(214, 222, 235);
           line-height: 1.45;
           font-size: 1.1em;
-          font-family: 'Raleway', sans-serif;
+          font-family: Hack, monospace;
           background: rgb(1, 22, 39);
           padding: 16px;
           overflow: auto;
@@ -195,17 +195,13 @@ export default () => {
   return (
     <>
       <Head>
-        <title>Object Detection - Tommy</title>
-        <link rel="icon" href="https://github.com/Tommy-Ngx/ai/raw/main/img/favicon.ico" type="image/png"/>
-        <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/Tommy-Ngx/ai/raw/main/img/favicon.ico"/>
+        <title>Object Detection - An API to detect objects on images</title>
         <meta
           name="description"
-          content="Tommy is practicing an API for detect objects on images using tensorflow-js"
+          content="An API to detect objects on images using tensorflow-js and Zeit Now"
         />
-        <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-
       <Layout
         sidebar={
           <>
@@ -224,6 +220,8 @@ export default () => {
               </div>
             )}
             <div className="padding">
+              <h1>Object-Detection</h1>
+
               <h2>Upload an image</h2>
               <Dropzone
                 setStatus={setStatus}
@@ -232,13 +230,6 @@ export default () => {
                 fetchPredict={fetchPredict}
                 setError={setError}
               />
-              <h1>
-                  <img src="https://github.com/Tommy-Ngx/ai/raw/main/img/TommyFull.png" width="50px" />
-                  <ul>
-                        <li>Object Detection</li>
-                        <li>Nhận Dạng Đối Tượng</li>
-                  </ul>
-              </h1>
 
               <h2>
                 Or choose an example image (
@@ -264,24 +255,24 @@ export default () => {
               <h2>How does it work?</h2>
 
               <p className="mb">
-                Please read more in{' '}
+                You can read more on{' '}
                 <a href="https://zeit.co/blog/serverless-machine-learning">
-                  this blog
+                  the dedicated article on ZEIT's blog
                 </a>{' '}
-                or available{' '}
-                <a href="https://github.com/Tommy-Ngx/object_dectection">
-                   on my Github.
+                or in the code{' '}
+                <a href="https://github.com/lucleray/object-detection">
+                  available on Github.
                 </a>
               </p>
 
               <p className="mb">
                 Made by{' '}
                 <a
-                  href="https://github.com/Tommy-Ngx"
+                  href="https://twitter.com/lucleray"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  @Tommy
+                  @lucleray
                 </a>
                 .
               </p>
@@ -298,32 +289,17 @@ export default () => {
           padding: 0;
         }
         body {
-          font-family: 'Raleway', sans-serif;
-          background: #aa4b6b;  /* fallback for old browsers */
-          background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
-          background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
         }
         h1 {
           margin-bottom: 1em;
-          font-weight: light;
-          font-size: 1.1em;
+          font-weight: bold;
+          font-size: 1.3em;
           padding-bottom: 0.8em;
           color: #555;
-          margin-left: 10px;
           border-bottom: 1px solid #eee;
         }
-        h1.img {
-            float: left;
-            box-shadow: none;
-        }
-        h1.ul {
-            list-style: none;
-            float: border-right;
-            padding-left: 10px;
-            margin-top: 15px;
-          }
         h2 {
-          padding-top: 0em;
           margin-bottom: 1em;
           font-weight: bold;
           font-size: 1.3em;
